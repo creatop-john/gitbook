@@ -1,24 +1,23 @@
 # edit內的各種形式
 
 ### 裝飾類別
-```
-| 上方內距         | pd-top       |
-| 下方內距         | pd-bottom    |
-| 加大-上方內距    | pd-top-lg    |
-| 加大-下方內距    | pd-bottom-lg |
-| 上方推開         | mg-top       |
-| 下方推開         | mg-bottom    |
-| 加大-上方推開    | mg-top-lg    |
-| 加大-上方推開    | mg-bottom-lg |
-| 不顯示主標       | hidden-img   |
-| 放大時不顯示主圖 | hidden-title |
-| 名言佳句         | blockquote   |
-| 文字置中         | ta-center    |
-| 文字置右         | ta-right     |
-```
+
+- 上方內距 `pd-top`
+- 下方內距 `pd-bottom`
+- 加大-上方內距 `pd-top-lg`
+- 加大-下方內距 `pd-bottom-lg`
+- 上方推開 `mg-top`
+- 下方推開 `mg-bottom`
+- 加大-上方推開 `mg-top-lg`
+- 加大-上方推開 `mg-bottom-lg`
+- 不顯示主標 `hidden-img`
+- 放大時不顯示主圖 `hidden-title`
+- 名言佳句 `blockquote`
+- 文字置中 `ta-center`
+- 文字置右 `ta-right`
+
 
 ---
-### 樣式
 ```
 <div class="wrap img100 row vcenter">
     <!--圖要給尺寸 width="圖片寬" height="圖片高"，不然lazyload會出不來-->
