@@ -4,7 +4,7 @@
 
 1. [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. 選擇 **Download for Windows **即可![](/assets/import.png)
-3. 安裝時請點選下一步即可
+3. 安裝時請一直點選下一步即可
 
 ---
 
@@ -13,7 +13,11 @@
 1. AutoFileName
 2. JS-CSS-HTML Formatter
 
+---
 
+## 如何安裝?
+
+![](/assets/plugins.png)
 
 ---
 
