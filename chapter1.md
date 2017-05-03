@@ -1,3 +1,16 @@
-# First Chapter
+# 安裝vscode
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+\#\#\# 第一步請先安裝vscode
+
+1. [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+2. 選擇**Download for Windows 即可**
+
+![](/assets/import.png)
+
+
+
+
+
+
+
