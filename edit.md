@@ -1,7 +1,14 @@
 # edit內的各種形式
 
-### 裝飾類別
+## 預設類別
 
+### 全局系列
+- 網站限寬 `wrap`
+- 網站背景圖 `bg`
+- 名言佳句 `blockquote`
+- 兩個欄位以上會垂直置中 `vcenter`
+
+### 微調系列
 - 上方內距 `pd-top`
 - 下方內距 `pd-bottom`
 - 加大-上方內距 `pd-top-lg`
@@ -12,12 +19,40 @@
 - 加大-上方推開 `mg-bottom-lg`
 - 不顯示主標 `hidden-img`
 - 放大時不顯示主圖 `hidden-title`
-- 名言佳句 `blockquote`
 - 文字置中 `ta-center`
 - 文字置右 `ta-right`
 
 
+
+### 如何使用
+```
+<div class="剛剛這些類別都是放在這邊，用空格分開">
+    內容
+</div>
+```
 ---
+
+## wrap
+
+**限寬**
+```
+<div class="wrap">
+    內容
+</div>
+```
+**不限寬**
+```
+<div>
+    內容
+</div>
+```
+*chrome開發者視窗實作測試*
+
+---
+
+## wrap
+
+
 ```
 <div class="wrap img100 row vcenter">
     <!--圖要給尺寸 width="圖片寬" height="圖片高"，不然lazyload會出不來-->

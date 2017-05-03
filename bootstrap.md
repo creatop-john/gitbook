@@ -1,8 +1,6 @@
 # 格線系統Grid System
 
-### 
-
-### 為什麼需要用 Grid System
+## 為什麼需要用 Grid System
 
 因為為了符合設計的多樣性，  
 又能達到RWD的效果，  
@@ -37,13 +35,13 @@
 
 ---
 
-### 什麼是bootstrap
+## 什麼是bootstrap
 
 有興趣可以看看 [bootstrap中文官網](https://kkbruce.tw/bs3/)
 
 ---
 
-### 格線系統是什麼樣的概念
+## 格線系統是什麼樣的概念
 
 ![](/assets/grid-system.png)
 
@@ -109,10 +107,33 @@
 
 ---
 
-### 那麼有幾種尺寸呢?
+## 那麼有幾種尺寸呢?
 
 依照bootstrap 3 的標準來說  
 目前有四個尺寸
+- **xs** 小於平板，通常你會看到 `col-xs-數字`
+- **sm** 平板尺寸 `col-sm-數字`
+- **md** 桌機  `col-md-數字`
+- **lg** 筆電/大螢幕 > 1200px `col-lg-數字`
 
 ![](/assets/size.png)
+
+---
+
+## 要怎麼使用呢?
+
+**範例一：我希望在手機時是一欄一欄的，到平板以上時是二等分**
+```
+<div class="row">
+    <div class="col-sm-6">
+        //這是內容    
+    </div>
+    <div class="col-sm-6">
+        //這是內容    
+    </div>
+</div>
+```
+*註：不用寫col-xs-12的原因是，預設就是12欄，所以可以省略*
+
+---
 
