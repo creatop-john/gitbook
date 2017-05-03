@@ -1,14 +1,23 @@
-# edit內的各種形式
+# edit的編輯
 
-## 預設類別
+## 最簡單的RWD
+因為本次網站內容需要多項不同的編輯，
+所以會推薦使用原始碼編輯，
+之前說的 **Grid System** 已可做到大方向的排版，
+這邊將利用更多的類別來調整細節。
+ - A. 全局系列類別
+ - B. 微調系列類別
+ - C. 其他系列
 
-### 全局系列
+---
+
+## A. 全局系列類別
 - 網站限寬 `wrap`
 - 網站背景圖 `bg`
-- 名言佳句 `blockquote`
-- 兩個欄位以上會垂直置中 `vcenter`
 
-### 微調系列
+---
+
+## B. 微調系列類別
 - 上方內距 `pd-top`
 - 下方內距 `pd-bottom`
 - 加大-上方內距 `pd-top-lg`
@@ -22,46 +31,18 @@
 - 文字置中 `ta-center`
 - 文字置右 `ta-right`
 
+---
 
+## C. 其他系列
+- 名言佳句 `blockquote`
+- 兩個欄位以上會垂直置中 `vcenter`
 
-### 如何使用
+---
+
+## 如何使用
+通常是寫在容器的最外層
 ```
 <div class="剛剛這些類別都是放在這邊，用空格分開">
     內容
-</div>
-```
----
-
-## wrap
-
-**限寬**
-```
-<div class="wrap">
-    內容
-</div>
-```
-**不限寬**
-```
-<div>
-    內容
-</div>
-```
-*chrome開發者視窗實作測試*
-
----
-
-## wrap
-
-
-```
-<div class="wrap img100 row vcenter">
-    <!--圖要給尺寸 width="圖片寬" height="圖片高"，不然lazyload會出不來-->
-    <div class="col-sm-7"><img class="lazy" data-original="../img/demo/n-series.png" width="1440" height="1440" src="../img/demo/n-series.png" style="display: block;"></div>
-    <div class="col-sm-4 col-sm-offset-1">
-        <h3 class="fz-h2">N1-Large</h3>
-        <h4 class="fz-h4">副標副標副標副標副標副標副標副標</h4>
-        <p>您对旅行的热爱使我们投人更多的热情，自1998年经营捷克行程，量年年破新高，2007~2015年出团数超过1750团，40丨000人次! 加利利旅游更荣获捷克外交部颁发奖章，这是对我们一路走来坚持高质量的肯定与励!</p>
-        <a href="#">連結名稱</a>
-    </div>
 </div>
 ```
