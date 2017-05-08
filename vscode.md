@@ -10,8 +10,12 @@
 
 ## 實用外掛介紹
 
-1. AutoFileName
-2. JS-CSS-HTML Formatter
+1. AutoFileName / Path Intellisense *二擇一即可，路徑選擇工具*
+2. JS-CSS-HTML Formatter *每次存檔時整理程式碼*
+3. [open-in-browser]() *打開瀏覽器預覽* `ctrl + alt + D`
+4. [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) *讓你的檔案結構更容易辨識*
+5. HTML Snippets *HTML的提示*
+
 
 ---
 
