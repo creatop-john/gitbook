@@ -1,21 +1,31 @@
 var gulp = require("gulp");
+var concat = require('gulp-concat');
 var markdownpdf = require("markdown-pdf"),
     fs = require("fs")
+var options = {
+    cssPath: './../../css/john.css'
+}
 
-fs.createReadStream("bootstrap.md")
-    .pipe(markdownpdf())
-    .pipe(fs.createWriteStream("output/document.pdf"))
+
+// fs.createReadStream("bootstrap.md")
+//     .pipe(markdownpdf(options))
+//     .pipe(fs.createWriteStream("output/document.pdf"))
 
 // --- OR ---
 
-// markdownpdf().from("edit.md").to("output/document.pdf", function() {
+// markdownpdf(options).from("edit.md").to("output/document.pdf", function() {
 //     console.log("Done")
 // })
 
+gulp.task('markdownpdf', function() {
+    gulp.src('*.md')
+        //.pipe(concat('demo-all.md'))
+        .pipe(markdownpdf())
+        .pipe(gulp.dest('demo-all'))
 
-var options = {
-    cssPath: 'css/john.css'
-}
+});
+
+
 
 
 gulp.task('default', function() {
